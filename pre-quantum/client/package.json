@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "node-aes-gcm": "^0.2.6",
+    "sha3": "^2.1.4",
+    "trsa": "^1.0.2"
+  }
+}
