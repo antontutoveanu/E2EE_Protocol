@@ -1,6 +1,6 @@
 # Post-Quantum End-to-End Encryption Protocol
 
-## Protocol
+## Benchmarks
 
 Using CRYSTALS KYBER and AES-256 GCM.
 
@@ -19,13 +19,12 @@ Using CRYSTALS KYBER and AES-256 GCM.
 
 Forward secrecy can't be achieved unless the master key is changed regularly and data is re-encrypted.
 
-## Benchmarks
-
 |                |     Step 1     |    Step 2     |     Step 3     |     Step 4      |     Step 5     |
 |----------------|:--------------:|:-------------:|:--------------:|:---------------:|:--------------:|
-|**KYBER-512**   |         275    |       115     |         4      |        7        |         189    |
-|**KYBER-768**   |         381    |       193     |         4      |        7        |         189    |
-|**PRE-QUANTUM** |          44    |       2883    |         4      |        7        |         189    |
+|**KYBER-512**   |         211    |       121     |         4      |        9        |         195    |
+|**KYBER-768**   |         301    |       169     |         4      |        9        |         195    |
+|**KYBER-1024**  |         378    |       241     |         4      |        9        |         195    |
+|**PRE-QUANTUM** |          44    |       2883    |         4      |        9        |         195    |
 
 (values in microseconds)
 
